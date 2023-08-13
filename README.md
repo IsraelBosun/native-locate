@@ -19,6 +19,9 @@ This is a React Native application that utilizes the Google Maps API to fetch an
 ![Screenshot_20230813-214240](https://github.com/IsraelBosun/native-locate/assets/110021253/32df90e9-ccff-4a37-b418-a40f80258fa9)
 ![Screenshot_20230813-214041](https://github.com/IsraelBosun/native-locate/assets/110021253/0c0966e4-2aea-407b-a1bb-6bcb2714c7f2)
 
+<img src="https://github.com/IsraelBosun/native-locate/raw/main/assets/110021253/32df90e9-ccff-4a37-b418-a40f80258fa9.png" alt="Screenshot" width="20" />
+
+
 
 ## Installation
 
