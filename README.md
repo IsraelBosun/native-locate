@@ -1,10 +1,13 @@
 # React Native Google Maps Location App
+![Screenshot_20230813-214119](https://github.com/IsraelBosun/native-locate/assets/110021253/a0d8c928-e3c4-4c24-bd89-d76b90c84555)
 
 ![App Demo](demo.gif)
 
 This is a React Native application that utilizes the Google Maps API to fetch and display locations on a map. The app is built using the Expo framework, making it easy to develop and test on both iOS and Android platforms.
 
 ## Features
+
+
 
 - Fetches location data from the Google Maps API.
 - Displays fetched locations on an interactive map.
@@ -13,9 +16,9 @@ This is a React Native application that utilizes the Google Maps API to fetch an
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3](screenshots/screenshot3.png)
+![Screenshot_20230813-214240](https://github.com/IsraelBosun/native-locate/assets/110021253/32df90e9-ccff-4a37-b418-a40f80258fa9)
+![Screenshot_20230813-214041](https://github.com/IsraelBosun/native-locate/assets/110021253/0c0966e4-2aea-407b-a1bb-6bcb2714c7f2)
+
 
 ## Installation
 
@@ -71,7 +74,8 @@ This is a React Native application that utilizes the Google Maps API to fetch an
 - This project was inspired by the need to create a simple and interactive way to display locations using the Google Maps API in a React Native app.
 - Thanks to the Expo team for providing an amazing platform for developing React Native applications.
 
-## License
+## License!
+
 
 This project is licensed under the [MIT License](LICENSE).
 
