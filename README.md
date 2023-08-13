@@ -22,13 +22,13 @@ This is a React Native application that utilizes the Google Maps API to fetch an
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/react-native-google-maps-location-app.git
+   git clone https://github.com/IsraelBosun/native-locate.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd react-native-google-maps-location-app
+   cd native-locate
    ```
 
 3. Install dependencies using npm or yarn:
@@ -39,11 +39,11 @@ This is a React Native application that utilizes the Google Maps API to fetch an
    yarn install
    ```
 
-4. Create a `config.js` file in the project root directory and add your Google Maps API key:
+4. Create a `.env` file in the project root directory and add your Google Maps API key:
 
    ```javascript
-   // config.js
-   export const GOOGLE_MAPS_API_KEY = 'YOUR_API_KEY_HERE';
+   // .env
+   EXPO_PUBLIC_GOOGLE_API = 'YOUR_API_KEY_HERE';
    ```
 
 5. Run the app:
@@ -58,7 +58,7 @@ This is a React Native application that utilizes the Google Maps API to fetch an
 
 ## Configuration
 
-- Google Maps API key: You need to obtain a Google Maps API key and replace `'YOUR_API_KEY_HERE'` in the `config.js` file with your actual API key.
+- Google Maps API key: You need to obtain a Google Maps API key and replace `'YOUR_API_KEY_HERE'` in the `.env` file with your actual API key.
 
 ## Dependencies
 
