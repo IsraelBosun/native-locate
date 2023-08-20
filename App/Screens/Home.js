@@ -10,6 +10,7 @@ import { UserLocationContext } from '../Context/UserLocationContext'
 
 
 export default function Home() {
+  const [loading, setLoading] = useState(false); // Add this line
 
   const [placeList,setPlaceList]=useState([]);
   const {location,setLocation}=useContext(UserLocationContext);
@@ -17,6 +18,7 @@ export default function Home() {
   useEffect(()=>{
     if(location)
     {
+       setLoading(true)
        GetNearBySearchPlace('restaurant'); 
     }
   },[location])
@@ -27,7 +29,7 @@ export default function Home() {
       location.coords.longitude,value).then(resp=>{
 
           setPlaceList(resp.data.results);
-
+          setLoading(false)
           console.log(resp.data.results)
     })
   } 
@@ -36,7 +38,12 @@ export default function Home() {
         <Header/>
         <GoogleMapView placeList={placeList} />
         <CategoryList setSelectedCategory={(value)=>GetNearBySearchPlace(value)}/>
-       {placeList? <PlaceList placeList={placeList} />:null}
+        {loading? (
+            <ActivityIndicator size="large" color="red" />
+        ): (
+          <PlaceList placeList={placeList} />
+        )}
+        {/* {placeList? <PlaceList placeList={placeList} />:null} */}
     </ScrollView>
   )
 };
